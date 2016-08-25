@@ -1,10 +1,11 @@
 package main
 
 import (
-	"github.com/mobliyishengyuan/goframework"
+	fr "github.com/mobliyishengyuan/goframework"
 	_ "github.com/mobliyishengyuan/godemoapp/actions"
+	_ "github.com/mobliyishengyuan/godemoapp/plugins"
 )
 
 func main() {
-	goframework.Run()
+	fr.Run()
 }
